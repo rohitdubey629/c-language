@@ -1,0 +1,22 @@
+main()
+{
+int age,sal;
+clrscr();
+printf("Enter your age:");
+scanf("%d",&age);
+if(age>=18)
+{
+printf("Enter your sal:");
+scanf("%d",&sal);   }
+if(sal>=2000)
+ {
+  printf("valid job:");
+}
+else
+printf("not valid sal:");
+}
+else
+printf("not valid age:");
+
+getch();
+}
