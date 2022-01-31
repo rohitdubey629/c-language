@@ -1,6 +1,9 @@
 {
 	"files.associations": {
 		"1.C": "cpp",
-		"naturalNumber.C": "cpp"
+		"naturalNumber.C": "cpp",
+		"13.C": "cpp",
+		"swipe.C": "cpp",
+		"swip.C": "cpp"
 	}
 }
