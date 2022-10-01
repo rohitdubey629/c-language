@@ -1,6 +1,7 @@
-main(){
+#include<stdio.h>
+int main(){
  int num,r,swip=0;
- clrscr();
+ //clrscr();
 scanf("%d",&num);
  while(num>=1)
  {
@@ -9,5 +10,5 @@ scanf("%d",&num);
   swip=swip*10+r;
  }
 printf("%d",swip);
- getch();
+ return 0;
 }

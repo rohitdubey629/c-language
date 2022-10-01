@@ -1,12 +1,12 @@
 #include<stdio.h>
 #include<conio.h>
-main(){
+int main(){
 int i,num;
-clrscr();
-printf("Enter the any number");
+
+printf("Enter the any number calculet table");
 scanf("%d",&num);
 for(i=1;i<=10;i++)
 printf("\n%d*%d=%d",num,i,num*i);
-getch();
+return 0;
 
 }
