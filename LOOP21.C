@@ -1,6 +1,8 @@
-main(){
+
+#include <stdio.h>
+
+int main(){
 int i,j;
-clrscr();
 for(i=1;i<=4;i++)
 {
   for(j=1;j<=i;j++)
@@ -9,5 +11,5 @@ for(i=1;i<=4;i++)
   }
   printf("\n");
 }
-getch();
+return 0;
 }
